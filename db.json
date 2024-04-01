@@ -1,0 +1,162 @@
+{
+    "promotionalBanners": [
+      {
+        "image": "images/s1.png",
+        "headline": "END OF SEASON SALE",
+        "subline": "Gucci, Stuart Weitzman, Aquatalia, Forte Cashmere & More",
+        "link": "link-to-shop-1"
+      },
+      {
+        "image": "images/Screenshot 2024-03-19 133344.png",
+        "headline": "SUMMER COLLECTION",
+        "subline": "Discover our latest summer trends",
+        "link": "link-to-shop-2"
+      },
+      {
+        "image": "images/Screenshot 2024-03-19 133536.png",
+        "headline": "asdd",
+        "subline": "Discover our latest summer ",
+        "link": "link-to-shop-2"
+      },
+      {
+        "image": "images/Screenshot 2024-03-19 133855.png",
+        "headline": "SUMMER COLLECTION",
+        "subline": "Discover our latest  trends",
+        "link": "link-to-shop-2"
+      },
+      {
+        "image": "images/Screenshot 2024-03-19 134012.png",
+        "headline": "SUMMER COLLECTION",
+        "subline": "Discover our  summer trends",
+        "link": "link-to-shop-2"
+      },
+      {
+        "image": "images/Screenshot 2024-03-19 134338.png",
+        "headline": "SUMMER COLLECTION",
+        "subline": "Discover  latest summer trends",
+        "link": "link-to-shop-2"
+      },
+      {
+        "image": "images/Screenshot 2024-03-19 134853.png",
+        "headline": "SUMMER COLLECTION",
+        "subline": " our latest summer trends",
+        "link": "link-to-shop-2"
+      }
+    ],
+      "products": [
+        {
+          "name": "GUCCI WOMENS CRYSTAL-EMBELLISHED WEB SLIDES",
+          "original_price": 1200,
+          "discounted_price": 256.99,
+          "discount_percentage": 80,
+          "image_url": "images/products/537133-DOR60-8266__60450__1_360x.webp"
+        },
+        {
+          "name": "Gucci Womens Flashtrek Chunky Leather Sneakers",
+          "original_price": 1725,
+          "discounted_price": 412.99,
+          "discount_percentage": 76,
+          "image_url": "images/products/537355-GGZ30-1261__00634__1_360x.webp"
+        },
+        {
+          "name": "GUCCI MENS TINSEL SPORTS SANDALS",
+          "original_price": 995,
+          "discounted_price": 199.99,
+          "discount_percentage": 80,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "GUCCI MENS TINSEL SPORTS SANDALS",
+          "original_price": 890,
+          "discounted_price": 199.99,
+          "discount_percentage": 78,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "GUCCI WOMENS MESH FABRIC TINSEL SPORT SANDALS",
+          "original_price": 1410,
+          "discounted_price": 199.99,
+          "discount_percentage": 86,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "AMIRI CORE LOGO SWIM TRUNK COLUMBIA SWIMWEAR",
+          "original_price": 390,
+          "discounted_price": 281.00,
+          "discount_percentage": 28,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+
+        },
+        {
+          "name": "VALENTINO TOILE ICONOGRAPHE CASHMERE & SILK-BLEND BEANIE",
+          "original_price": 850,
+          "discounted_price": 404.99,
+          "discount_percentage": 52,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+
+        },
+        {
+          "name": "FERRAGAMO WOMENS SHEENA SUEDE HEEL SANDALS",
+          "original_price": 730,
+          "discounted_price": 309.99,
+          "discount_percentage": 58,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+
+        },
+        {
+          "name": "GIANVITO ROSSI RUBY 55 PATENT PUMP",
+          "original_price": 895,
+          "discounted_price": 719.99,
+          "discount_percentage": 20,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+
+        },
+        {
+          "name": "DOLCE & GABBANA EMBELLISHED COTTON NEWSBOY HAT",
+          "original_price": 1175,
+          "discounted_price": 579.00,
+          "discount_percentage": 51,
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+
+        }
+      ],
+      "newArrival": [
+        {
+          "name": "Versace Women's V-Neck Knitted Dress",
+          "original_price": "$1375",
+          "discounted_price": "$549.99",
+          "save_percentage": "Save 60%",
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "See By Chloé Hana Mini Patent Crossbody",
+          "original_price": "$550",
+          "discounted_price": "$469.99",
+          "save_percentage": "Save 15%",
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "Versace Women's Lightweight Knit Sweater",
+          "original_price": "$975",
+          "discounted_price": "$439.99",
+          "save_percentage": "Save 55%",
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "Versace Women's Tresor De La Mer T-Shirt",
+          "original_price": "$1175",
+          "discounted_price": "$469.99",
+          "save_percentage": "Save 60%",
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        },
+        {
+          "name": "Versace Women's Wool Blend Trousers",
+          "original_price": "$795",
+          "discounted_price": "$359.99",
+          "save_percentage": "Save 55%",
+          "image_url": "images/products/541445-GGZ50-9081__00002__1_360x.webp"
+        }
+      ]
+       
+  }
+  

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body class="login-page">
+    <header class="header">
+        <div class="nav__logo">
+            <img src="images/BLUEFLY-LOGO-11-20.webp" alt="Logo" style="height: 50px;">
+            <div class="nav__options">
+                <div class="search-container">
+                    <img src="images/icons8-search.svg" alt="Search" class="search-icon" id="searchIcon">
+                    <input type="search" placeholder="SEARCH" class="search-input" id="searchInput">
+                </div>
+                <a href="#" id="loginLink" class="icon-container">
+                    <img src="images/icons8-person-32.png" alt="Account" class="icon">
+                </a>
+                                <a href="#" class="icon-container">
+                    <img src="images/icons8-heart-50.png" alt="Wishlist" class="icon">
+                </a>
+                <a href="#" class="icon-container">
+                    <img src="images/icons8-shopping-bag-50.png" alt="Cart" class="icon">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="welcome-message">
+        WELCOME TO BLUEFLY: Luxury brands at discounted prices
+    </div>
+<div class="login-container">
+    <h1>LOGIN</h1>
+    <form id="login-form">
+        <label for="email">EMAIL</label>
+        <input type="email" id="login-email" name="email" required>
+
+        <label for="password">PASSWORD</label>
+        <input type="password" id="login-password" name="password" required>
+
+        <a href="#" class="forgot-password">Forgot password?</a>
+        <button type="submit" class="sign-in-button">SIGN IN</button>
+        <a href="signup.html" class="create-account-link">Create account</a>
+    </form>
+</div>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <!-- Include About Us content here -->
+        </div>
+        <div class="footer-section">
+            <h4>Customer Service</h4>
+            <ul>
+                <li>Contact Us</li>
+                <li>Frequently Asked Questions</li>
+                <li>Shipping & Returns</li>
+                <li>Pre-Owned Guide</li>
+                <li>Sell on Bluefly</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Legal</h4>
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Do not sell my personal information</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Stay Connected</h4>
+            <!-- Include Stay Connected content here -->
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 Bluefly BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</p>
+    </div>
+</footer>
+<script src="js/login.js"></script>
+</body>
+</html>

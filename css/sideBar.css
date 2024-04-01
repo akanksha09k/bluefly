@@ -1,0 +1,91 @@
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+}
+
+.filter-section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-list li {
+    margin-bottom: 5px;
+}
+
+.filter-list li label {
+    display: block;
+    cursor: pointer;
+}
+
+.show-more {
+    background: none;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.more-brands {
+    display: none;
+}
+
+/* When 'more-brands' isn't hidden */
+.more-brands.show {
+    display: block;
+}
+
+/* Styling the checkbox input */
+.filter-list input[type='checkbox'] {
+    margin-right: 5px;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.filter-toggle {
+    font-size: 24px; /* Adjust size as needed */
+    user-select: none; /* Prevents text selection */
+}
+
+/* Optional: add transitions for smoother visual effects */
+.filter-list,
+.filter-toggle {
+    transition: all 0.3s ease;
+}
+
+/* Styles for when the list is hidden */
+.filter-list.hide + .show-more {
+    display: none; /* Hide the "Show More" button when the list is hidden */
+}
+
+.filter-title {
+    /* Additional styles to ensure the arrow and title are properly aligned */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

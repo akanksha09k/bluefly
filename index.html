@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav__logo">
+            <a href="index.html">
+                <img src="images/BLUEFLY-LOGO-11-20.webp" alt="Logo" style="height: 50px;">
+            </a>
+            <div class="nav__options">
+                <div class="search-container">
+                    <img src="images/icons8-search.svg" alt="Search" class="search-icon" id="searchIcon">
+                    <input type="search" placeholder="SEARCH" class="search-input" id="searchInput">
+                </div>
+                <a href="#" id="loginLink" class="icon-container">
+                    <img src="images/icons8-person-32.png" alt="Account" class="icon">
+                </a>
+                <a href="#" class="icon-container">
+                    <img src="images/icons8-heart-50.png" alt="Wishlist" class="icon">
+                </a>
+                <a href="#" class="icon-container">
+                    <img src="images/icons8-shopping-bag-50.png" alt="Cart" class="icon">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div>
+        <nav class="main-nav">
+            <ul class="nav__list">
+                <li class="nav__item has-dropdown">
+                    <a href="#">CLOTHING</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-section">
+                            <h4 class="dropdown-header">Women's Clothing</h4>
+                            <a href="#">Dresses</a>
+                            <a href="#">Coats & Jackets</a>
+                            <a href="#">Jeans & Denim</a>
+                            <!-- more links for women's clothing -->
+                        </div>
+                        <div class="dropdown-section">
+                            <h4 class="dropdown-header">Men's Clothing</h4>
+                            <a href="#">Casual Shirts</a>
+                            <a href="#">Sport Coats & Blazers</a>
+                            <a href="#">Pants</a>
+                            <!-- more links for men's clothing -->
+                        </div>
+                        <!-- More sections can be added here -->
+                    </div>
+                </li>
+                <li><a href="#">SHOES</a></li>
+                <li><a href="#">HANDBAGS</a></li>
+                <li><a href="#">DESGINERS</a></li>
+                <li><a href="#">SUNGLASSES</a></li>
+                <li><a href="#">JWELLERY & WATCHES</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">UNDER $ 50</a></li>
+                <li><a href="#">CLEARANCE</a></li>
+
+            </ul>
+        </nav>
+        <div class="welcome-message">
+            WELCOME TO BLUEFLY: Luxury brands at discounted prices
+        </div>
+
+        <div class="slider" id="slider"></div>
+        <div class="slider-navigation">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="section-heading">
+            <h2>RECOMMENDED PRODUCTS</h2>
+        </div>
+        <!-- <div id="product-section"></div> -->
+        <div class="product-container">
+            <button class="nav-button prev">&#10094;</button>
+            <div id="product-scroll" class="product-scroll">
+            </div>
+            <button class="nav-button next">&#10095;</button>
+        </div>
+        <div class="banner-container">
+            <div class="banner-item" style="background-image: url('images/dress1 (1).jpg');">
+                <div class="banner-text">
+                    <h2>TRENDING LUXURY STYLES</h2>
+                    <p>UP TO 80% OFF</p>
+                    <p>Featured Designer: Burberry, Saint Laurent, Gucci, Bottega Veneta, Ferragamo, Balmain & More</p>
+                    <a href="link-to-shop" class="banner-link">SHOP LUXURY STYLES</a>
+                </div>
+            </div>
+            <div class="banner-item" style="background-image: url('images/dress1 (2).webp');">
+                <div class="banner-text">
+                    <h2>ON TREND DRESSES</h2>
+                    <p>UP TO 65% OFF</p>
+                    <p>Featuring Adrianna Papell, Lauren Ralph Lauren & More</p>
+                    <a href="link-to-shop" class="banner-link">SHOP DRESSES</a>
+                </div>
+            </div>
+            <div class="banner-item" style="background-image: url('images/dress3.webp');">
+                <div class="banner-text">
+                    <h2>DESIGNER BOUTIQUE</h2>
+                    <p>UP TO 84% OFF</p>
+                    <p>Best-Selling Styles from: Gucci, Valentino, Balenciaga, Stuart Weitzman & More</p>
+                    <a href="link-to-shop" class="banner-link">SHOP DESIGNER BOUTIQUE</a>
+                </div>
+            </div>
+        </div>
+        <div class="category-container">
+            <div class="section-heading">
+                <h2>SHOP BY CATEGORY</h2>
+            </div>
+            <div class="category-row">
+                <div class="category-card">
+                    <img src="images/categoryImg/-1117Wx1400H-410196952-17-OUTFIT.jpg" alt="Dresses">
+                    <a href="link-to-dresses" class="category-link">DRESSES</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/P00819745.jpg" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/-1117Wx1400H-410248949-2700-MODEL3.jpg" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/-1117Wx1400H-465099425-black-MODEL.avif" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/05039311898-p.jpg" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+            </div>
+            <div class="category-row">
+                <div class="category-card">
+                    <img src="images/categoryImg/-1117Wx1400H-410196952-17-OUTFIT.jpg" alt="Dresses">
+                    <a href="link-to-dresses" class="category-link">DRESSES</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/P00819745.jpg" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/-1117Wx1400H-410248949-2700-MODEL3.jpg" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/-1117Wx1400H-465099425-black-MODEL.avif" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+                <div class="category-card">
+                    <img src="images/categoryImg/05039311898-p.jpg" alt="Pumps & Heels">
+                    <a href="link-to-heels" class="category-link">PUMPS & HEELS</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider" id="slider"></div>
+        <div class="slider-navigation">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+        <div class="category-container">
+            <div class="section-heading">
+                <h2>NEW ARRIVALS</h2>
+                <a href="link-to-heels" class="category-link">View All</a>
+            </div>
+            <div class="category-row">
+                <div class="product-card">
+                    <img src="images/newArrival/14346210RQ_14_f.jpg" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">VERSACE WOMENS V-NECK KNITTED DRESS</p>
+                        <p class="product-original-price">$1375</p>
+                        <p class="product-discounted-price">$549.99</p>
+                        <p class="product-save-percentage">Save 60%</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/newArrival/14346210RQ_14_f.jpg" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">VERSACE WOMENS V-NECK KNITTED DRESS</p>
+                        <p class="product-original-price">$1375</p>
+                        <p class="product-discounted-price">$549.99</p>
+                        <p class="product-save-percentage">Save 60%</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/newArrival/14346210RQ_14_f.jpg" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">VERSACE WOMENS V-NECK KNITTED DRESS</p>
+                        <p class="product-original-price">$1375</p>
+                        <p class="product-discounted-price">$549.99</p>
+                        <p class="product-save-percentage">Save 60%</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/newArrival/14346210RQ_14_f.jpg" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">VERSACE WOMENS V-NECK KNITTED DRESS</p>
+                        <p class="product-original-price">$1375</p>
+                        <p class="product-discounted-price">$549.99</p>
+                        <p class="product-save-percentage">Save 60%</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/newArrival/14346210RQ_14_f.jpg" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">VERSACE WOMENS V-NECK KNITTED DRESS</p>
+                        <p class="product-original-price">$1375</p>
+                        <p class="product-discounted-price">$549.99</p>
+                        <p class="product-save-percentage">Save 60%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category-container">
+            <div class="section-heading">
+                <h2>NEW ARRIVALS</h2>
+                <a href="link-to-heels" class="category-link">View All</a>
+            </div>
+            <div class="category-row">
+                <div class="product-card">
+                    <img src="images/newArrival/denim_540x.webp" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">UP TO 85% OFF THE DENIM SHOP FOR HIM & HER/p>
+                        <p class="product-original-price">From Hudson Jeans, Joe's Jeans, J Brand & More</p>
+                        <a href="link-to-heels" class="category-link">shop denim</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/newArrival/shutterstock_1112754335-REV_360x.webp"
+                        alt="Versace Women's V-Neck Knitted Dress" class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">UP TO 90% OFF TRENDING JUMPSUITS & ROMPERS</p>
+                        <p class="product-original-price">Must-Haves From Halston, BCBGMAXAZRIA, Iro & More</p>
+                        <a href="link-to-heels" class="category-link">SHOP JUMPSUITS</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/newArrival/Tops_360x.webp" alt="Versace Women's V-Neck Knitted Dress"
+                        class="product-image">
+                    <div class="product-details">
+                        <p class="product-name">UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</p>
+                        <p class="product-original-price">Shop Wallets, Belts, Hats, Sunglasses & More</p>
+                        <a href="link-to-heels" class="category-link">SHOP WOMENS ACCESSORIES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <!-- Include About Us content here -->
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Frequently Asked Questions</li>
+                        <li>Shipping & Returns</li>
+                        <li>Pre-Owned Guide</li>
+                        <li>Sell on Bluefly</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Do not sell my personal information</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Stay Connected</h4>
+                    <!-- Include Stay Connected content here -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Bluefly BLUEFLY.COM OR ITS AFFILIATES ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <script src="js/index.js"></script>
+</body>
+
+</html>

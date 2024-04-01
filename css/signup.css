@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .subscribe {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .subscribe input {
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+  }
+  
